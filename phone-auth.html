@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>google phone auth</title>
+	</head>
+	<body>
+		<script defer src='/firebase/firebase-app.js'></script>
+		<script defer src='/firebase/firebase-auth.js'></script>
+		<script defer src='/firebase/init.js'></script>
+		<script defer src='/phone-auth.js'></script>
+		
+		<form id='sign-in-form' action='#' autocomplete='off'>
+			<input type='text' id='phone-number'>
+			<input disabled type='submit'  id='sign-in-button' value='get-otp' />
+		</form>
+		<form disabled id='verification-code-form' action='#' autocomplete='off'>
+			<input type='text' id='verification-code'>
+			<input type='submit' id='verify-code-button' value='verify'/>&nbsp
+			<button id='cancel-verify-code-button'>cancel</button>
+		</form>
+		<form disabled id='sign-out-form' action='#'>
+			<button id='sign-out-button'>sign-out</button>
+		</form>
+	</body>
+</html>
