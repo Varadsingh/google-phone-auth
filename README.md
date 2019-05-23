@@ -9,7 +9,7 @@
   4. now in the "Your apps" section select the "Config" radio button
   5. copy the code given
   6. paste the code in /firebase/init.js change the variable name as required
-  10. now back to firebase console, in the "Develop" section click on "Authentication", then goto "Sign-in method", here in "Sign-in providers" section click on "Phone" section and enable it
+  10. now back to firebase console, in the "Develop" section click on "Authentication", then goto "Sign-in method", here in "Sign-in providers" section, click on "Phone" section and enable it
   11. you can also add a dummy phone number and verification code for testing purpose
   12. in "Authorized domains" section, add you domain for example "localhost"
   
